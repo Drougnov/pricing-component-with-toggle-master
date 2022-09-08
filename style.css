@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -61,6 +61,7 @@ header .toggle-container{
   background: linear-gradient(145deg, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   border-radius: 1rem;
   position: relative;
+  cursor: pointer;
 }
 .toggle .slider{
   position: absolute;
@@ -101,7 +102,7 @@ main .card{
   padding: 2.5rem 1.5rem;
 }
 .card h2{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin: 2rem 0;
 }
 .annual{
@@ -132,11 +133,33 @@ hr{
   margin-top: 1rem;
   border-radius: .3rem;
 }
+.card a:hover{
+  background: linear-gradient(145deg, hsla(236, 72%, 79%,.8),hsla(237, 63%, 64%,.8));
+}
+.card a:active{
+  transform: translateY(1px);
+}
 .card.middle a{
   color: hsl(237, 63%, 64%);
   background: white;
 }
+.card.middle a:hover{
+  background: rgba(255, 255, 255, 0.8);
+}
+footer{
+  font-size: .8rem;
+}
+footer a{
+  color: hsl(237, 63%, 64%);
+}
+footer a:hover{
+  text-decoration: none;
+}
 @media(min-width: 1023px){
+  body{
+    padding: 2rem 0;
+    overflow-y: hidden;
+  }
   body::before{
     position: absolute;
     content: '';
