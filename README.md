@@ -15,7 +15,7 @@ Here is the link of the challange-
 
 ## Live site url
 
-<https://drougnov.github.io/pricing-component-with-toggle-main/>
+<https://drougnov.github.io/pricing-component-with-toggle-master/>
 
 ## Built with
 
