@@ -1,6 +1,6 @@
 # Frontend Mentor - Pricing Component With Toggle
 
-![Design preview for pricing component](./design/desktop-design.jpg)
+![Design preview for pricing component](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
